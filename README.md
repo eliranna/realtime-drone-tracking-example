@@ -1,4 +1,4 @@
-# Drone-Tracker-Example
+# realtime-drone-tracking-example
 
 This is a sample code created for [this blog post].
 
