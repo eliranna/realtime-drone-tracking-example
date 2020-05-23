@@ -1,4 +1,4 @@
-const { gql } = require('apollo-server-express');
+const { gql } = require("apollo-server-express");
 
 const typeDefs = gql`
   type Subscription {
@@ -10,9 +10,9 @@ const typeDefs = gql`
   }
 
   type Location {
-    id: String!,
-    latitude: String,
-    longitude: String,
+    id: String!
+    latitude: String
+    longitude: String
     altitude: String
   }
 `;

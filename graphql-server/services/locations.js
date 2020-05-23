@@ -1,5 +1,5 @@
-const { RESTDataSource } = require('apollo-datasource-rest');
-const { LOCATIONS_MOCK_LIST } = require('./mock');
+const { RESTDataSource } = require("apollo-datasource-rest");
+const { LOCATIONS_MOCK_LIST } = require("./mock");
 
 class LocationsAPI extends RESTDataSource {
   constructor() {
@@ -7,9 +7,8 @@ class LocationsAPI extends RESTDataSource {
   }
 
   async getHistory(droneId) {
-    return LOCATIONS_MOCK_LIST
+    return LOCATIONS_MOCK_LIST;
   }
-
 }
 
 module.exports = LocationsAPI;

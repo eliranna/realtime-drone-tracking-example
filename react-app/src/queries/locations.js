@@ -1,11 +1,11 @@
-import { gql } from '@apollo/client';
+import { gql } from "@apollo/client";
 
 const LOCATION_FIELDS = `
     id
     latitude,
     longitude,
     altitude    
-`
+`;
 
 export const LOCATIONS_QUERY = gql`
   query Locations($droneId: String!) {

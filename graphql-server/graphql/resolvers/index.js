@@ -1,12 +1,12 @@
-const locations = require('./locations.resolver');
-const locationChanged = require('./location-changed.resolver');
+const locations = require("./locations.resolver");
+const locationChanged = require("./location-changed.resolver");
 
-const resolvers =  {
+const resolvers = {
   Query: {
-    locations
+    locations,
   },
   Subscription: {
-    locationChanged
+    locationChanged,
   },
 };
 
