@@ -2,7 +2,7 @@
 
 This is a sample code created for [this blog post].
 
-[this blog post]: https://www.upnext.blog/chasing-drones-with-graphql
+[this blog post]: https://thehardcoded.blog/chasing-drones-with-graphql
 
 ### Description
 This sample outlines an e2e implementation of an Real-time Drone-tracking application using MQTT, GraphQL, Apollo Server, Apollo Client, Node.js and React. 
