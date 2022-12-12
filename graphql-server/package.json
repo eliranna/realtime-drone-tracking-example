@@ -19,7 +19,7 @@
     "apollo-datasource-rest": "^0.9.0",
     "apollo-server": "^2.13.1",
     "apollo-server-express": "^2.8.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "graphql": "^14.4.2",
     "graphql-mqtt-subscriptions": "^1.2.0",
     "graphql-subscriptions": "^1.1.0",
